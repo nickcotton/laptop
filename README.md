@@ -8,6 +8,7 @@ Requirements
 
 * A C compiler, such as GCC, LLVM, or Clang.
 * X11 (Available on OSX install disk)
+* [MySQL](http://www.mysql.com/downloads/mysql/)
 
 Download a compiler from [OS X GCC Installer](https://github.com/kennethreitz/osx-gcc-installer/) if you're on Snow Leopard (OS X 10.6) or [Command Line Tools for XCode](https://developer.apple.com/downloads/index.action) if you're on Lion (OS X 10.7).
 
