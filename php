@@ -1,6 +1,7 @@
 echo "Installing PHP..."
   brew tap josegonzalez/homebrew-php
   brew install php53 --with-mysql --with-intl
+  export PATH="$(brew --prefix josegonzalez/php/php53)/bin:$PATH"
 
 echo "Installing XDebug..."
   brew install xdebug
