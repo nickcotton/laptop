@@ -26,6 +26,7 @@ What it sets up
 * SSH public key (for authenticating with services like Github and Heroku)
 * Homebrew (for managing operating system libraries)
 * Git
+* Git Flow
 * PhantomJS (For headless JavaScript testing)
 * Ack (for finding things in files)
 * ImageMagick (for cropping and resizing images)
