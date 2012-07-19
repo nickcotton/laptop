@@ -35,6 +35,9 @@ echo "Install NPM (Node Package Manager)..."
 echo "Installing RVM (Ruby Version Manager)..."
   curl -L https://get.rvm.io | bash -s stable --ruby
 
+echo "Updating Rubygems..."
+  gem update --system
+
 echo "Updating Profile..."
   echo 'export PATH=/usr/local/bin:$PATH' >> .bash_profile
   echo '[[ -s $HOME/.rvm/scripts/rvm ]] && source $HOME/.rvm/scripts/rvm' >> .bash_profile
