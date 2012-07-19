@@ -20,20 +20,6 @@ Run the script:
 
     curl -s https://raw.github.com/anthonyshort/laptop/master/mac | sh
 
-When the install is done, you'll need to update your `/etc/apache2/httpd.conf` file.
-
-Find this line in `/etc/apache2/httpd.conf` starting with:
-
-    LoadModule php5_module /some/path
-
-And replace the path with:
-
-    LoadModule php5_module /usr/local/Cellar/php53/5.3.14/libexec/apache2/libphp5.so
-    
-Add this line to the bottom of the file:
-
-    Include /private/etc/apache2/extra/httpd-vhosts.conf
-    
 
 What it sets up
 ---------------
@@ -66,6 +52,22 @@ What it doesn't setup
 * Apps
 
 The installer doesn't do these things because it's a) Already installed in MacOSX by default or b) It needs admin rights. 
+
+Setting up Apache
+-----------------
+
+Find this line in `/etc/apache2/httpd.conf` starting with:
+
+    LoadModule php5_module /some/path
+
+And replace the path with:
+
+    LoadModule php5_module /usr/local/Cellar/php53/5.3.14/libexec/apache2/libphp5.so
+    
+Add this line to the bottom of the file:
+
+    Include /private/etc/apache2/extra/httpd-vhosts.conf
+
 
 Recommended Apps
 ----------------
