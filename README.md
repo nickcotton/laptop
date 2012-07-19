@@ -70,13 +70,13 @@ The installer doesn't do these things because it's a) Already installed in MacOS
 Recommended Apps
 ----------------
 
-* Chrome Canary (https://tools.google.com/dlpage/chromesxs/)
-* Chrome (https://www.google.com/chrome/)
-* Firefox (http://www.mozilla.org/en-US/firefox/new/)
-* Sublime Text 2 (http://www.sublimetext.com/)
-* Gitbox (http://www.gitboxapp.com/)
-* VirtualHostX (http://clickontyler.com/virtualhostx/)
-* Sequel Pro (http://www.sequelpro.com/)
+* [Chrome Canary](https://tools.google.com/dlpage/chromesxs/)
+* [Chrome](https://www.google.com/chrome/)
+* [Firefox](http://www.mozilla.org/en-US/firefox/new/)
+* [Sublime Text 2](http://www.sublimetext.com/)
+* [Gitbox](http://www.gitboxapp.com/)
+* [VirtualHostX](http://clickontyler.com/virtualhostx/)
+* [Sequel Pro](http://www.sequelpro.com/)
 
 Setting up Sublime Text 2
 -------------------------
@@ -86,7 +86,7 @@ First, install the package manager:
     import urllib2,os; pf='Package Control.sublime-package'; ipp=sublime.installed_packages_path(); os.makedirs(ipp) if not os.path.exists(ipp) else None; urllib2.install_opener(urllib2.build_opener(urllib2.ProxyHandler())); open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read()); print 'Please restart Sublime Text to finish installation'
 
 * [Tomorrow theme](https://github.com/ChrisKempson/Tomorrow-Theme).
-* Soda theme (https://github.com/buymeasoda/soda-theme/)
+* [Soda UI theme](https://github.com/buymeasoda/soda-theme/)
 
 Here are some [recommended packages](http://anthonyshort.me/2012/03/setting-up-sublime-text-2-for-frontend-development).
 
