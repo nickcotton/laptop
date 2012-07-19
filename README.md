@@ -68,6 +68,10 @@ Add this line to the bottom of the file:
 
     Include /private/etc/apache2/extra/httpd-vhosts.conf
 
+Virtual Hosts
+-------------
+
+I use [VirtualHostX](http://clickontyler.com/virtualhostx/) for all of my VirtualHost needs.
 
 Recommended Apps
 ----------------
