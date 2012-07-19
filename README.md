@@ -55,3 +55,13 @@ What it sets up
 * PHP, Composer and xdebug (https://github.com/josegonzalez/homebrew-php)
 
 It should take about 30 minutes for everything to install, depending on your machine.
+
+What it doesn't setup
+---------------------
+
+* MySQL
+* Apache
+* Enabling PHP in Apache
+* Setting up VirtualHosts
+
+The installer doesn't do these things because it's a) Already installed in MacOSX by default or b) It needs admin rights. 
