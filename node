@@ -1,0 +1,36 @@
+#!/bin/sh
+
+echo "Installing Node Package Manager..."
+  curl http://npmjs.org/install.sh | sh
+  
+echo "Installing Coffeescript..."
+  npm install -g coffee-script
+
+echo "Installing Grunt and Grunt packages..."
+  npm install -g grunt
+  npm install -g grunt-contrib
+  npm install -g grunt-coffee
+  npm install -g grunt-requirejs
+  npm install -g grunt-growl
+  npm install -g grunt-mocha
+  npm install -g grunt-reload
+  npm install -g grunt-shell
+
+echo "Installing Wintersmith for creating static websites..."
+  npm install -g wintersmith
+ 
+echo "Installing JSHint to validate Javascript code..."
+  npm install -g jshint
+
+echo "Installing Uglify for minifying Javascript code..."
+  npm install -g uglify
+
+echo "Installing Handlebars templating engine..."
+  npm install -g handlebars
+
+echo "Installing Jade templating engine..."
+  npm install -g jade
+
+echo "Installing JS2Coffee for converting projects to Coffeescript..."
+  npm install -g js2coffee
+
