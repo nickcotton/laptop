@@ -38,7 +38,8 @@ echo "Installing RVM (Ruby Version Manager)..."
 echo "Updating PATH..."
   echo 'export PATH=/usr/local/bin:$PATH' >> .bash_profile
 
-source .bash_profile
+source ~/.bash_profile
+source ~/.bashrc
 
 curl -s https://raw.github.com/anthonyshort/laptop/master/ruby | sh
 curl -s https://raw.github.com/anthonyshort/laptop/master/node | sh
