@@ -5,7 +5,8 @@ echo "Checking for SSH key, generating one if it doesn't exist ..."
 
 echo "Copying public key to clipboard. Paste it into your Github account ..."
   [[ -f ~/.ssh/id_rsa.pub ]] && cat ~/.ssh/id_rsa.pub | pbcopy
-  open https://github.com/account/ssh
+
+echo "SSH Key copied to clipboard! Open https://github.com/account/ssh to add your key"
 
 echo "Installing Homebrew, a good OS X package manager ..."
   /usr/bin/ruby -e "$(/usr/bin/curl -fksSL https://raw.github.com/mxcl/homebrew/master/Library/Contributions/install_homebrew.rb)"
@@ -38,10 +39,15 @@ echo "Installing RVM (Ruby Version Manager)..."
 echo "Updating Rubygems..."
   gem update --system
 
+echo "Installing PHP..."
+  brew tap josegonzalez/homebrew-php
+  brew install php53 --with-mysql --with-intl
+
 echo "Updating Profile..."
   echo 'export PATH=/usr/local/bin:$PATH' >> .bash_profile
   echo '[[ -s $HOME/.rvm/scripts/rvm ]] && source $HOME/.rvm/scripts/rvm' >> .bash_profile
   echo 'export PATH=$PATH:~/.gem/ruby/1.8/bin' >> .bash_profile
+  echo 'export PATH="$(brew --prefix josegonzalez/php/php53)/bin:$PATH"' >> .bash_profile
 
 source /Users/`whoami`/.rvm/scripts/rvm
 source ~/.bash_profile
