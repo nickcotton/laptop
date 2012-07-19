@@ -14,6 +14,9 @@ echo "Installing Homebrew, a good OS X package manager ..."
 echo "Installing Git Version Control..."
   brew install git
 
+echo "Installing Git-Flow..."
+  brew install git-flow
+
 echo "Installing Phantom JS for Javascript testing..."
   brew install phantomjs
 
