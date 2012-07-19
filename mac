@@ -33,4 +33,4 @@ echo "Installing RVM (Ruby Version Manager)..."
   curl -L https://get.rvm.io | bash -s stable --ruby
 
 curl -s https://raw.github.com/anthonyshort/laptop/master/ruby | sh
-curl -s https://raw.github.com/anthonyshort/laptop/master/node) | sh
+curl -s https://raw.github.com/anthonyshort/laptop/master/node | sh
