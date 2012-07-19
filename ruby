@@ -1,5 +1,8 @@
 #!/bin/sh
 
+source ~/.bashrc
+source ~/.bash_profile
+
 echo "Installing Ruby 1.9.3 stable and making it the default Ruby ..."
   rvm install 1.9.3
   rvm use 1.9.3 --default
