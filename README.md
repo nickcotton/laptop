@@ -20,6 +20,18 @@ Run the script:
 
     curl -s https://raw.github.com/anthonyshort/laptop/master/mac | sh
 
+When the install is done, you'll need to update your `/etc/apache2/httpd.conf` file to point to the PHP version we just built.
+
+Find this line in `/etc/apache2/httpd.conf` starting with:
+
+    LoadModule php5_module /some/path
+
+And replace the path with:
+
+    LoadModule php5_module /usr/local/Cellar/php53/5.3.14/libexec/apache2/libphp5.so
+    
+Make sure the line is also uncommented.
+
 What it sets up
 ---------------
 
