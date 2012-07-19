@@ -20,7 +20,7 @@ echo "Installing JSHint to validate Javascript code..."
   npm install -g jshint
 
 echo "Installing Uglify for minifying Javascript code..."
-  npm install -g uglify
+  npm install -g uglify-js
 
 echo "Installing Handlebars templating engine..."
   npm install -g handlebars
