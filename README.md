@@ -29,9 +29,10 @@ What it sets up
 * ImageMagick (for cropping and resizing images)
 * RVM (for managing versions of the Ruby programming language)
 * Ruby language (for writing general-purpose code)
-* Bunch of commonly used gems
+* Bunch of commonly used gems (Sass, Compass, Stitch etc...)
 * Node (The awesome Javascript runtime)
 * NPM (Node package manager)
+* Coffeescript
 * Bunch of commonly-used node packages
 
 It should take about 30 minutes for everything to install, depending on your machine.
