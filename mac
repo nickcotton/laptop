@@ -49,7 +49,7 @@ echo "Updating Profile..."
   echo 'export PATH=$PATH:~/.gem/ruby/1.8/bin' >> .bash_profile
   echo 'export PATH="$(brew --prefix josegonzalez/php/php53)/bin:$PATH"' >> .bash_profile
 
-source /Users/`whoami`/.rvm/scripts/rvm
+source ~/.rvm/scripts/rvm
 source ~/.bash_profile
 source ~/.bashrc
 
