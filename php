@@ -1,4 +1,4 @@
-echo "Installing PHP with Apache and MySQL..."
+echo "Installing PHP..."
   brew tap josegonzalez/homebrew-php
   brew install php53 --with-mysql --with-intl
 
