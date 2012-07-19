@@ -6,3 +6,7 @@ echo "Installing PHP with Apache and MySQL..."
 
 echo "Installing XDebug..."
   brew install xdebug
+
+echo "Installing Composer (PHP package manager)..."
+  brew tap josegonzalez/homebrew-php
+  brew install josegonzalez/php/composer
