@@ -32,6 +32,9 @@ echo "Install NPM (Node Package Manager)..."
 echo "Installing RVM (Ruby Version Manager)..."
   curl -L https://get.rvm.io | bash -s stable --ruby
 
+echo "Updating PATH..."
+  echo 'export PATH=/usr/local/bin:$PATH' >> .bash_profile
+
 curl -s https://raw.github.com/anthonyshort/laptop/master/ruby | sh
 curl -s https://raw.github.com/anthonyshort/laptop/master/node | sh
 curl -s https://raw.github.com/anthonyshort/laptop/master/php | sh
