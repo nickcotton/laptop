@@ -52,6 +52,6 @@ What it sets up
 * NPM (Node package manager)
 * Coffeescript
 * Bunch of commonly-used node packages
-* PHP, Composer and xdebug
+* PHP, Composer and xdebug (https://github.com/josegonzalez/homebrew-php)
 
 It should take about 30 minutes for everything to install, depending on your machine.
