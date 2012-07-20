@@ -68,6 +68,37 @@ Add this line to the bottom of the file:
 
     Include /private/etc/apache2/extra/httpd-vhosts.conf
 
+Setting up x-debug
+------------------
+
+The php.ini file is located in `/usr/local/etc/php/5.3/php.ini`. You'll need to add these settings to the bottom 
+of the file and restart Apache.
+
+```
+[xdebug]
+zend_extension=/usr/local/Cellar/php53-xdebug/2.2.0/xdebug.so
+xdebug.file_link_format="txmt://open?url=file://%f&line=%1"
+xdebug.default_enable=1
+xdebug.scream=1
+xdebug.cli_color=1
+xdebug.max_nesting_level = 200
+
+xdebug.overload_var_dump=1
+xdebug.var_display_max_depth=6
+xdebug.var_display_max_data=2048
+var_display_max_children=256
+
+xdebug.profiler_enable_trigger = 1
+
+xdebug.remote_enable=1
+xdebug.remote_handler=dbgp
+xdebug.remote_port=9000
+xdebug.remote_host=localhost
+xdebug.remote_autostart=1
+xdebug.idekey=XDEBUG_ECLIPSE
+xdebug.extended_info=1
+```
+
 Virtual Hosts
 -------------
 
