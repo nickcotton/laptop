@@ -7,10 +7,11 @@ Requirements
 ------------
 
 * A C compiler, such as GCC, LLVM, or Clang.
-* X11 (Available on OSX install disk)
+* [X11](http://xquartz.macosforge.org/trac/wiki)
 * [MySQL](http://www.mysql.com/downloads/mysql/)
 
-Download a compiler from [OS X GCC Installer](https://github.com/kennethreitz/osx-gcc-installer/) if you're on Snow Leopard (OS X 10.6) or [Command Line Tools for XCode](https://developer.apple.com/downloads/index.action) if you're on Lion (OS X 10.7).
+Download a compiler from [OS X GCC Installer](https://github.com/kennethreitz/osx-gcc-installer/) if you're on Snow Leopard (OS X 10.6) or [Command Line Tools for XCode](https://developer.apple.com/downloads/index.action) if you're on Lion (OS X 10.7). Mountlion Lion
+users can download the [Command Line Tools for Mountain Lion](http://adcdownload.apple.com/ios/ios_simulator__resigned/cltools_mountainliondp2_march12.dmg)
 
 
 Install
