@@ -6,12 +6,12 @@ Laptop is a script to set up your Max OS X laptop as a web development machine.
 Requirements
 ------------
 
-* A C compiler, such as GCC, LLVM, or Clang.
+* OSX Mountain Lion (This is what I'm using so it's the only version I'm targeting, sorry)
+* XCode 4.4
 * [X11](http://xquartz.macosforge.org/trac/wiki)
 * [MySQL](http://www.mysql.com/downloads/mysql/)
 
-Download a compiler from [OS X GCC Installer](https://github.com/kennethreitz/osx-gcc-installer/) if you're on Snow Leopard (OS X 10.6) or [Command Line Tools for XCode](https://developer.apple.com/downloads/index.action) if you're on Lion (OS X 10.7). Mountlion Lion
-users can download the [Command Line Tools for Mountain Lion](http://adcdownload.apple.com/ios/ios_simulator__resigned/cltools_mountainliondp2_march12.dmg)
+If you don't want to get XCode you can try getting the [Command Line Tools for Mountain Lion](http://adcdownload.apple.com/ios/ios_simulator__resigned/cltools_mountainliondp2_march12.dmg) but your milage may vary. You're better off just getting XCode.
 
 
 Install
