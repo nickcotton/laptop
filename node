@@ -5,13 +5,6 @@ echo "Installing Coffeescript..."
 
 echo "Installing Grunt and Grunt packages..."
   npm install -g grunt
-  npm install -g grunt-contrib
-  npm install -g grunt-coffee
-  npm install -g grunt-requirejs
-  npm install -g grunt-growl
-  npm install -g grunt-mocha
-  npm install -g grunt-reload
-  npm install -g grunt-shell
 
 echo "Installing Wintersmith for creating static websites..."
   npm install -g wintersmith
