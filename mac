@@ -15,17 +15,8 @@ echo "Installing Homebrew, a good OS X package manager ..."
 echo "Installing Git Version Control..."
   brew install git
 
-echo "Installing Git-Flow..."
-  brew install git-flow
-
 echo "Installing Phantom JS for Javascript testing..."
   brew install phantomjs
-
-echo "Installing ack, a good way to search through files ..."
-  brew install ack
-
-echo "Installing ImageMagick, good for cropping and re-sizing images ..."
-  brew install imagemagick
   
 echo "Installing Node..."
   brew install node
@@ -42,16 +33,6 @@ echo "Updating Rubygems..."
 echo "Installing PHP..."
   brew tap josegonzalez/homebrew-php
   brew install php53 --with-mysql --with-intl
-
-echo "Updating Profile..."
-  echo 'export PATH=/usr/local/bin:$PATH' >> .bash_profile
-  echo '[[ -s $HOME/.rvm/scripts/rvm ]] && source $HOME/.rvm/scripts/rvm' >> .bash_profile
-  echo 'export PATH=$PATH:~/.gem/ruby/1.8/bin' >> .bash_profile
-  echo 'export PATH="$(brew --prefix josegonzalez/php/php53)/bin:$PATH"' >> .bash_profile
-
-source ~/.rvm/scripts/rvm
-source ~/.bash_profile
-source ~/.bashrc
 
 curl -s https://raw.github.com/anthonyshort/laptop/master/ruby | sh
 curl -s https://raw.github.com/anthonyshort/laptop/master/node | sh
