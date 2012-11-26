@@ -5,9 +5,6 @@ echo "Installing Phantom JS for Javascript testing..."
 
 echo "Installing Node..."
   brew install node
-
-echo "Install NPM (Node Package Manager)..."
-  curl http://npmjs.org/install.sh | sh
   
 echo "Installing Coffeescript..."
   npm install -g coffee-script
