@@ -1,11 +1,11 @@
 #!/bin/sh
 
 echo "Installing Homebrew, a good OS X package manager ..."
-  /usr/bin/ruby -e "$(/usr/bin/curl -fksSL https://raw.github.com/mxcl/homebrew/master/Library/Contributions/install_homebrew.rb)"
+  /usr/bin/ruby -e "$(/usr/bin/curl -fksSL https://raw.github.com/mxcl/homebrew/go)"
   brew update
 
-curl -s https://raw.github.com/anthonyshort/laptop/master/git | sh
-curl -s https://raw.github.com/anthonyshort/laptop/master/ruby | sh
-curl -s https://raw.github.com/anthonyshort/laptop/master/node | sh
-curl -s https://raw.github.com/anthonyshort/laptop/master/php | sh
-curl -s https://raw.github.com/anthonyshort/laptop/master/keys | sh
+curl -s https://raw.github.com/nickcotton/laptop/master/git | sh
+curl -s https://raw.github.com/nickcotton/laptop/master/ruby | sh
+curl -s https://raw.github.com/nickcotton/laptop/master/node | sh
+curl -s https://raw.github.com/nickcotton/laptop/master/php | sh
+curl -s https://raw.github.com/nickcotton/laptop/master/keys | sh

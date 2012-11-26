@@ -7,7 +7,7 @@ Requirements
 ------------
 
 * OSX Mountain Lion (This is what I'm using so it's the only version I'm targeting, sorry)
-* XCode 4.4
+* XCode 4.4 - remember to launch XCode and install the command line tools from within prefs. Otherwise rvm will complain that there is `no acceptable C compiler found in $PATH`.
 * [X11](http://xquartz.macosforge.org/trac/wiki)
 * [MySQL](http://www.mysql.com/downloads/mysql/)
 
@@ -19,7 +19,7 @@ Install
 
 Run the script:
 
-    curl -s https://raw.github.com/anthonyshort/laptop/master/install | sh
+    curl -s https://raw.github.com/nickcotton/laptop/master/install | sh
 
 What it sets up
 ---------------
