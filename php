@@ -19,4 +19,4 @@ echo "Installing XDebug..."
 echo "Installing Composer (PHP package manager)..."
   brew install josegonzalez/php/composer
 
-echo 'export PATH="$(brew --prefix josegonzalez/php/php53)/bin:$PATH"' >> .bash_profile
+echo 'export PATH="$(brew --prefix josegonzalez/php/php53)/bin:$PATH"' >> .path

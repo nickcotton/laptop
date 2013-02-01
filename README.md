@@ -6,6 +6,7 @@ Laptop is a script to set up your Max OS X laptop as a web development machine.
 Requirements
 ------------
 
+* Set up dotfiles first, create ~/.path
 * OSX Mountain Lion (This is what I'm using so it's the only version I'm targeting, sorry)
 * XCode 4.4 - remember to launch XCode and install the command line tools from within prefs. Otherwise rvm will complain that there is `no acceptable C compiler found in $PATH`.
 * [X11](http://xquartz.macosforge.org/trac/wiki)
